@@ -3,7 +3,7 @@ import profile from '../assets/profile.jpg'
 
 export default function About({ isDark }) {
     return (
-        <section id="about" className="py-16 px-6 ">
+        <section id="about" className="py-16 px-4 ">
             <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between space-y-12 lg:space-y-0">
 
                 <div className="lg:w-1/2 space-y-6">

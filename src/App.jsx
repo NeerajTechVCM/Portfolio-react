@@ -51,7 +51,7 @@ export default function App() {
   return (
     <>
       <Particle isDark={isDark} />
-      <div className='relative'>
+      <div className='relative overflow-x-hidden'>
         <Navbar />
         <DarkMode isDark={isDark} setIsDark={setIsDark} topRef={topRef} />
         <Home isDark={isDark} />

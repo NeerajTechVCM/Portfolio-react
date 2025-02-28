@@ -72,7 +72,7 @@ export default function Projects({ isDark }) {
     return (
         <section
             id="projects"
-            className="pt-[60px] py-16 px-6" // Adjust for navbar height
+            className="pt-[60px] py-16 px-6 "  
         >
             <div className="container mx-auto">
                 <h2 data-aos="flip-left" className={`text-3xl font-semibold text-${isDark ? "white" : "gray-800"} mb-8`}>
