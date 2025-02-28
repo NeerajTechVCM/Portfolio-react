@@ -3,6 +3,7 @@ import React from 'react';
 import { FaFacebook, FaInstagram, FaWhatsapp, FaGithub } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import profile from '../assets/profile.jpg'
+import resume from '../assets/neeraj.pdf'
 export default function Home({ isDark }) {
     return (
         <section id="home" className={`py-5 mt-1  flex justify-center items-center text-${isDark ? "white" : "black"}`}>
@@ -60,7 +61,8 @@ export default function Home({ isDark }) {
                         </div>
 
                         <Button className="mt-5 bg-[#b164fa] w-24">
-                            <a href="#" className="text-white">
+
+                            <a href={resume} className="text-white">
                                 View CV
                             </a>
                         </Button>
