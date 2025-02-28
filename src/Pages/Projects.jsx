@@ -75,7 +75,7 @@ export default function Projects({ isDark }) {
             className="pt-[60px] py-16 px-6 "  
         >
             <div className="container mx-auto">
-                <h2 data-aos="flip-left" className={`text-3xl font-semibold text-${isDark ? "white" : "gray-800"} mb-8`}>
+                <h2 data-aos="flip-left" className={`text-3xl mt-9 font-semibold text-${isDark ? "white" : "gray-800"} mb-8`}>
                     My Projects
                 </h2>
                 <div className='flex flex-col gap-3'>

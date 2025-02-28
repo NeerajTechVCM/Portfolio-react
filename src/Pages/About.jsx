@@ -7,7 +7,7 @@ export default function About({ isDark }) {
             <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between space-y-12 lg:space-y-0">
 
                 <div className="lg:w-1/2 space-y-6">
-                    <h2 data-aos="flip-left" className={`text-3xl font-semibold  text-${isDark ? "white" : "gray-800"}`}>About Me</h2>
+                    <h2 data-aos="flip-left" className={`text-3xl font-semibold mt-9  text-${isDark ? "white" : "gray-800"}`}>About Me</h2>
                     <div className='flex flex-col gap-3'>
                         <div className='bg-[#b164fa]' style={{ width: "130px ", height: "5px", borderRadius: "10px" }} ></div>
 

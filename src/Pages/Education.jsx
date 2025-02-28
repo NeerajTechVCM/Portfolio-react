@@ -4,7 +4,7 @@ export default function Education({ isDark }) {
     return (
         <section id="education" className="py-16 px-4 ">
             <div className="container mx-auto">
-                <h2 data-aos="flip-left" className={`text-3xl font-semibold text-${isDark ? "white" : "gray-800"}  mb-8`}>Education</h2>
+                <h2 data-aos="flip-left" className={`text-3xl mt-9 font-semibold text-${isDark ? "white" : "gray-800"}  mb-8`}>Education</h2>
                 <div className='flex flex-col gap-3'>
                     <div className='bg-[#b164fa]' style={{ width: "130px ", height: "5px", borderRadius: "10px" }} ></div>
 

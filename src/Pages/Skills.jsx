@@ -33,7 +33,7 @@ export default function Skills({ isDark }) {
     return (
         <section id="skills" className="py-16 px-6 ">
             <div className="container mx-auto">
-                <h2 data-aos="flip-left" className={`text-3xl font-semibold text-${isDark ? "white" : "gray-800"}  mb-8`}>My Skills</h2>
+                <h2 data-aos="flip-left" className={`text-3xl mt-9 font-semibold text-${isDark ? "white" : "gray-800"}  mb-8`}>My Skills</h2>
                 <div className='flex flex-col gap-3'>
                     <div className='bg-[#b164fa]' style={{ width: "130px ", height: "5px", borderRadius: "10px" }} ></div>
 

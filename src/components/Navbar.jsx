@@ -11,7 +11,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="bg-[#b164fa] w-full  sticky top-0 text-white p-4 shadow-md  z-10" >
+    <nav className="bg-[#b164fa] w-full  fixed top-0 text-white p-4 shadow-md  z-10" >
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-xl font-bold">PortFolio</div>
         <div className="hidden md:flex space-x-6">

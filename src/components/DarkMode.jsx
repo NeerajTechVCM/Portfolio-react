@@ -16,7 +16,7 @@ export default function DarkMode({isDark,setIsDark,topRef}) {
    <>
     <Toaster/>
     <div ref={topRef} className=' w-full flex justify-end items-center '>
-      <label className="swap swap-rotate mr-16 mt-10"  >
+      <label className="swap swap-rotate mr-16 mt-28"  >
 
 
   <input

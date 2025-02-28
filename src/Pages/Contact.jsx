@@ -56,7 +56,7 @@ export default function Contact({ isDark }) {
             <Toaster />
             <section className="py-20" id="contact">
                 <div className="container mx-auto px-4 ">
-                    <h2 data-aos="flip-left" className={`text-4xl font-bold  text-${isDark ? "white" : "black"} mb-10`}>
+                    <h2 data-aos="flip-left" className={`text-3xl mt-9 font-semibold  text-${isDark ? "white" : "black"} mb-10`}>
                         Contact Me
                     </h2>
                     <div className='flex flex-col gap-3'>
