@@ -10,62 +10,64 @@ import todo from '../assets/todo.png'
 import notes from '../assets/notes.jpg'
 export default function Projects({ isDark }) {
     const projects = [
+       
         {
             id: 1,
-            title: "Tic Tac Toe",
-            description: "I'm Building the tic tac toe Game using Html Css Javascrip.",
-            image: tic,
-        },
-        {
-            id: 2,
-            title: "Todo List",
-            description: "I'm Building the Todo List using Html Css Javascript.",
-            image: todo,
-        },
-        {
-            id: 3,
-            title: "Simon Game",
-            description: "I'm Building the Simon Game using Html Css Javascript.",
-            image: simon,
-        },
-        {
-            id: 4,
-            title: "Quiz App",
-            description: "I'm Building the Quiz App using Html Css Javascript.",
-            image: quiz,
-        },
-        {
-            id: 5,
-            title: "Calculator",
-            description: "I'm Building the Calculator using Html Css Javascript.",
-            image: calc,
-        },
-        {
-            id: 6,
-            title: "Restaurant website",
-            description: "I'm Building static website using html css js and bootstrap.",
-            image: rest,
-        },
-        {
-            id: 7,
-            title: "Swiggy Home Page Clone",
-            description: "I'm Building Swiggy Home page clone using html css js and bootstrap.",
-            image: swiggy,
-        },
-        {
-            id: 8,
             title: "Chat App",
-            description: "I'm Building Chat App using MERN.",
+            description: "Built Chat App using MERN.",
             image: chat,
             link:"https://chat-app-1-q0ke.onrender.com/"
         },
         {
-            id: 9,
+            id: 2,
             title: "Notes App",
-            description: "I'm Building the Notes app using MERN.",
+            description: "Built the Notes app using MERN.",
             image: notes,
             link:"https://notes-x9gg.onrender.com"
         },
+        {
+            id: 3,
+            title: "Swiggy Home Page Clone",
+            description: "Built Swiggy Home page clone using html css js and bootstrap.",
+            image: swiggy,
+        },
+        {
+            id: 4,
+            title: "Tic Tac Toe",
+            description: "Built the tic tac toe Game using Html Css Javascrip.",
+            image: tic,
+        },
+        {
+            id: 5,
+            title: "Todo List",
+            description: "Built the Todo List using Html Css Javascript.",
+            image: todo,
+        },
+        {
+            id: 6,
+            title: "Simon Game",
+            description: "Built the Simon Game using Html Css Javascript.",
+            image: simon,
+        },
+        {
+            id: 7,
+            title: "Quiz App",
+            description: "Built the Quiz App using Html Css Javascript.",
+            image: quiz,
+        },
+        {
+            id: 8,
+            title: "Calculator",
+            description: "Built the Calculator using Html Css Javascript.",
+            image: calc,
+        },
+        {
+            id: 9,
+            title: "Restaurant website",
+            description: "Built static website using html css js and bootstrap.",
+            image: rest,
+        },
+        
 
     ];
 
