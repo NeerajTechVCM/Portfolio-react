@@ -14,11 +14,15 @@ export default function About({ isDark }) {
                         <div style={{ width: "80px ", height: "5px", borderRadius: "10px" }} className=" bg-[#b164fa]"></div>
                     </div>
                     <p className={`text-lg text-black text-${isDark ? "white" : "black"} `}>
-                        Hi, I'm <span className="font-semibold text-blue-600">Neeraj Pal</span>. I'm a passionate Front-end Developer who loves creating interactive and user-friendly web applications.
-                        With a strong foundation in HTML, CSS, JavaScript, and React, I focus on building responsive, efficient, and scalable websites.
+
+
+
+                    Hi, I'm <span className="font-semibold text-blue-600">Neeraj Pal</span>, a passionate front-end developer with a strong foundation in HTML, CSS, JavaScript, and React. I enjoy creating interactive and user-friendly web applications, focusing on responsiveness, efficiency, and scalability.  
+
+                       
                     </p>
                     <p className={`text-lg text-black text-${isDark ? "white" : "black"} `}>
-                        I enjoy solving complex problems and continuously improving my skills. When I'm not coding, I like to explore new technologies, contribute to open-source projects, and learn about the latest trends in web development.
+                    I have a keen interest in problem-solving and continuously improving my skills. In my free time, I explore new technologies, contribute to open-source projects, and stay updated with the latest trends in web development.
                     </p>
                 </div>
 

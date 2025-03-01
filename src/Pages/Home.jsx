@@ -8,12 +8,12 @@ export default function Home({ isDark }) {
     return (
         <section id="home" className={`py-5 mt-1  flex justify-center items-center text-${isDark ? "white" : "black"}`}>
             <div className="container mx-auto px-3 py-16">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
                     <div className="flex flex-col justify-center">
-                        <h4 className="mt-5 text-3xl">Hi THERE,</h4>
+                        <h4 className=" text-2xl mt-5 md:text-3xl ">Hi THERE,</h4>
                         <br />
-                        <h2 className="text-4xl mt-4">
-                            I'm <span className=' text-xl text-[#b164fa]'>
+                        <h2 className=" text-2xl md:text-4xl mt-4">
+                        Hi, I'm <span className=' text-sm md:text-xl text-[#b164fa]'>
                                 <TypeAnimation
                                     sequence={[
 
@@ -31,7 +31,7 @@ export default function Home({ isDark }) {
                             </span>
                         </h2>
                         <br />
-                        <p className="text-xl mt-4">Hii Everyone, I'm a Front-end Developer</p>
+                        <p className=" text-lg md:text-xl mt-4">A Passionate Front-End Developer Crafting Interactive and Scalable Web Applications</p>
                         <br />
                         <div className="flex space-x-4 mt-5">
                             <a
